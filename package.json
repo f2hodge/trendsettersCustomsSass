@@ -1,0 +1,24 @@
+{
+  "name": "trendsetterscustomssass",
+  "version": "1.0.0",
+  "description": "Dynamic Sass styled site for TS in Live Oak",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2hodge/trendsettersCustomsSass.git"
+  },
+  "author": "SiteHound",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2hodge/trendsettersCustomsSass/issues"
+  },
+  "homepage": "https://github.com/f2hodge/trendsettersCustomsSass#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "node-sass": "^9.0.0"
+  }
+}
